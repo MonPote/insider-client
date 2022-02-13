@@ -845,6 +845,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@colyseus/schema@^0.5.5":
+  version "0.5.41"
+  resolved "https://registry.yarnpkg.com/@colyseus/schema/-/schema-0.5.41.tgz#0bb3d3653e2b9170fef8732835cc3db2f0d8e8a0"
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -852,6 +856,18 @@
 "@csstools/normalize.css@^10.1.0":
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
+
+"@gamestdio/signals@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@gamestdio/signals/-/signals-1.0.0.tgz#3f7501a322b9b7c5d7f105f81d0f638d4e0357a4"
+
+"@gamestdio/state-listener@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@gamestdio/state-listener/-/state-listener-3.1.0.tgz#d39fc5f107e58b536ac6e8477ed141ed7421788a"
+
+"@gamestdio/websocket@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@gamestdio/websocket/-/websocket-0.3.2.tgz#321ba0976ee30fd14e51dbf8faa85ce7b325f76a"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -2496,6 +2512,19 @@ color@^3.0.0:
     color-convert "^1.9.1"
     color-string "^1.5.2"
 
+colyseus.js@^0.12.2:
+  version "0.12.2"
+  resolved "https://registry.yarnpkg.com/colyseus.js/-/colyseus.js-0.12.2.tgz#250defb9a499640f2b6bc4717e5e67e7b4de2751"
+  dependencies:
+    "@colyseus/schema" "^0.5.5"
+    "@gamestdio/signals" "^1.0.0"
+    "@gamestdio/state-listener" "^3.1.0"
+    "@gamestdio/websocket" "^0.3.2"
+    fossil-delta "^1.0.0"
+    httpie "^2.0.0-next.3"
+    notepack.io "^2.1.3"
+    strong-events "^1.0.5"
+
 combined-stream@^1.0.6, combined-stream@~1.0.6:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/combined-stream/-/combined-stream-1.0.8.tgz#c3d45a8b34fd730631a110a8a2520682b31d5a7f"
@@ -2952,7 +2981,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
+debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   dependencies:
@@ -3874,10 +3903,8 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.10.0.tgz#01f5263aee921c6a54fb91667f08f4155ce169eb"
-  dependencies:
-    debug "^3.0.0"
+  version "1.14.8"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.8.tgz#016996fb9a11a100566398b1c6839337d7bfa8fc"
 
 for-in@^0.1.3:
   version "0.1.8"
@@ -3921,6 +3948,10 @@ form-data@~2.3.2:
 forwarded@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
+
+fossil-delta@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/fossil-delta/-/fossil-delta-1.0.2.tgz#a3e9545d5fd5e1b317dca38f0c852baa80b13b89"
 
 fragment-cache@^0.2.1:
   version "0.2.1"
@@ -4356,6 +4387,10 @@ http-signature@~1.2.0:
     assert-plus "^1.0.0"
     jsprim "^1.2.2"
     sshpk "^1.7.0"
+
+httpie@^2.0.0-next.3:
+  version "2.0.0-next.13"
+  resolved "https://registry.yarnpkg.com/httpie/-/httpie-2.0.0-next.13.tgz#1e245be61d6ca2573a2c1d690cfa5ec3bac63a0c"
 
 https-browserify@^1.0.0:
   version "1.0.0"
@@ -6002,6 +6037,10 @@ normalize-url@1.9.1:
 normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
+
+notepack.io@^2.1.3:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/notepack.io/-/notepack.io-2.3.0.tgz#a6214d1cf41d9fe59d2024affaf097c1a462e27f"
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -8401,6 +8440,10 @@ strip-indent@^3.0.0:
 strip-json-comments@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-3.0.1.tgz#85713975a91fb87bf1b305cca77395e40d2a64a7"
+
+strong-events@^1.0.5:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/strong-events/-/strong-events-1.0.7.tgz#b12da3ec5cd79cf50851707c3d66912428198067"
 
 style-loader@0.23.1:
   version "0.23.1"
